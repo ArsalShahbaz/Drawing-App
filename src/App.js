@@ -39,7 +39,6 @@ export default function App() {
   const [size, setSize]               = useState(4);
   const [opacity, setOpacity]         = useState(1);
   const [history, setHistory]         = useState([]);
-  const [redoStack, setRedoStack]     = useState([]);
   const [textPos, setTextPos]         = useState(null);
   const [textVal, setTextVal]         = useState("");
   const [showPanel, setShowPanel]     = useState(false);
